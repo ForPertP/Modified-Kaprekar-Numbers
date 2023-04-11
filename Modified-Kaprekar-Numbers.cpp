@@ -1,3 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+
+/*
+ * Complete the 'kaprekarNumbers' function below.
+ *
+ * The function accepts following parameters:
+ *  1. INTEGER p
+ *  2. INTEGER q
+ */
+
 void kaprekarNumbers(int p, int q)
 {
     bool b_result = false;
